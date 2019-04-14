@@ -3,6 +3,7 @@
     <pages>
         <page name='Enums de carga'/>
         <page name='Result Type'/>
-        <page name='Programación dinámica'/>
+        <page name='Dynamic Member Lookup'/>
+        <page name='Dynamically Call'/>
     </pages>
 </playground>
