@@ -5,5 +5,7 @@
         <page name='Result Type'/>
         <page name='Dynamic Member Lookup'/>
         <page name='Dynamically Call'/>
+        <page name='Property Wrappers #1'/>
+        <page name='Property Wrappers #2'/>
     </pages>
 </playground>
