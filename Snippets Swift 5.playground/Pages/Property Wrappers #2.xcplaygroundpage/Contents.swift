@@ -5,7 +5,7 @@ struct UserDefault<T> {
     let key:String
     let defaultValue:T
     
-    var value:T {
+    var wrappedValue:T {
         get {
             return UserDefaults.standard.object(forKey: key) as? T ?? defaultValue
         }

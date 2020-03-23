@@ -21,7 +21,7 @@ stack1.extractValue()
 class FIFOStackClass<T> {
     var storage:[T] = []
     
-    var value:T {
+    var wrappedValue:T {
         get {
             storage.removeFirst()
         }
