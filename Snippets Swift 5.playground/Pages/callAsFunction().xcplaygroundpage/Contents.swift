@@ -1,5 +1,24 @@
 import UIKit
 import Combine
+import PlaygroundSupport
+
+final class TestView:UIViewController {
+    
+    override func viewDidLoad() {
+        let boton = UIButton(type: .system)
+        boton.setTitle("Pulsa aquí", for: .normal)
+        boton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(boton)
+        NSLayoutConstraint.activate ([
+            boton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            boton.topAnchor.constraint(equalTo: view.topAnchor, constant: 20),
+            boton.widthAnchor.constraint(equalToConstant: 100)
+        ])
+    }
+}
+
+PlaygroundPage.current.liveView = TestView()
+
 
 final class ImageLoader {
     var url:URL
